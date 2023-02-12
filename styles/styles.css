@@ -1,0 +1,43 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    background-color: #d5e1ef;
+}
+.container{
+    margin: 100px auto;
+    width: 30%;
+}
+.card{
+    border-radius: 5%;
+}
+.card-body{
+    margin: 0 1rem 1rem;
+}
+.card-img-top{
+    border-radius: 7%;
+}
+p{
+    color: #797d88;
+}
+@media only screen and (max-width: 550px) {
+    body{
+        font-size: 1rem;
+    }
+    .container{
+        width: 80%;
+    }
+    h4{
+        font-size: 1rem;
+        padding: 0 0.8rem;
+    }
+    .card-body{
+        padding-top: 0px;
+        margin: 0;
+        padding: 0 1rem 1rem!important;
+    }
+    .card-text{
+
+        font-size: 0.8rem;
+        padding: 0 0.8rem;
+    }
+}
